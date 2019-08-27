@@ -1,0 +1,11 @@
+ItemStock class
+
+Behavoirs:
+
+1. getCategories() returns Array of strings mentioning categories of items in stock.
+2. getItems(String category) returns Array of Items objects in a particular category. 
+    Returns all Items if no category is mentioned.
+    Items contains following methods:
+        getName() as String: name of the Item
+        getPrice() as Double: marked price of item
+        getItemId() as int: unique id of the Item.
